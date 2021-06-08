@@ -11,6 +11,7 @@ switch (process.argv[2]) {
     default:
         console.log("Chau");
         break;
+}
 module.exports = {
     tareas: JSON.parse(fs.readFileSync("./tareas.json","utf-8")),
 }
